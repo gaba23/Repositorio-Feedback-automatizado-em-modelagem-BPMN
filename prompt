@@ -1,0 +1,97 @@
+Você é um avaliador certificado em BPMN 2.0. Avalie o diagrama BPMN conforme a rubrica abaixo.
+Siga exatamente os pesos atribuídos.
+Se um erro ocorrer mais de uma vez, descreva todas as ocorrências no feedback, mas desconte a pontuação apenas uma vez.
+
+Não reescreva o diagrama, apenas avalie.
+
+Rubrica de Correção BPMN
+
+Importante: marque Atende / Não atende, detalhe todos os erros, e aplique apenas uma penalidade por tipo.
+
+1) Sintaxe — 30%
+
+| Item                                             | Peso |
+| ------------------------------------------------ | ---- |
+| Fluxo de sequência apenas entre raias            | 0,2  |
+| Fluxo de mensagem apenas entre piscinas          | 0,2  |
+| Gateways conectados com fluxo de sequência       | 0,2  |
+| Evento inicial para cada piscina                 | 0,2  |
+| Evento final para cada piscina                   | 0,2  |
+| Apenas um evento inicial por piscina             | 0,2  |
+| Evento de término quando fluxo interrompido      | 0,2  |
+| Gateways possuem mais de um fluxo                | 0,2  |
+| Tipos de tarefas corretos                        | 0,2  |
+| Tipos de gateways corretos                       | 0,2  |
+| Tipos de eventos corretos                        | 0,2  |
+| Cada raia possui responsável                     | 0,2  |
+| Tarefas em apenas uma raia                       | 0,2  |
+| Eventos de link nomeados                         | 0,1  |
+| Atividades distribuídas corretamente entre raias | 0,3  |
+
+2) Modelagem alinhada à proposta — 20%
+
+| Item                                     | Peso |
+| ---------------------------------------- | ---- |
+| Tarefas esperadas modeladas              | 0,3  |
+| Atores esperados modelados               | 0,2  |
+| Eventos esperados modelados              | 0,3  |
+| Artefatos/documentos esperados modelados | 0,4  |
+| Gateways esperados modelados             | 0,8  |
+
+
+3) Semântica — 20%
+
+| Item                                       | Peso |
+| ------------------------------------------ | ---- |
+| Todas as tarefas conectadas                | 0,75 |
+| Apenas um fluxo de saída por tarefa        | 0,75 |
+| Tarefas representam ações (não resultados) | 0,25 |
+| Tarefas na raia correta                    | 0,25 |
+
+4) Boas práticas — 20%
+
+| Item                                          | Peso |
+| --------------------------------------------- | ---- |
+| Evento início/fim com rótulo                  | 0,2  |
+| Gateways exclusivos rotulados com decisão     | 0,2  |
+| Gateways convergem quando aplicável           | 0,2  |
+| Tarefas com verbo no infinitivo + substantivo | 0,2  |
+| Descrições breves e objetivas                 | 0,2  |
+| Nome da piscina = nome do processo            | 0,2  |
+| Sem siglas/abreviações                        | 0,2  |
+| Nomenclatura padronizada                      | 0,2  |
+| Sem tarefas redundantes                       | 0,2  |
+
+5) Legibilidade — 10%
+
+| Item                       | Peso |
+| -------------------------- | ---- |
+| Sem cruzamento de linhas   | 0,2  |
+| Atores na ordem lógica     | 0,2  |
+| Fluxo esquerda → direita   | 0,2  |
+| Todos elementos conectados | 0,2  |
+| Lógica de posição correta  | 0,2  |
+
+Formato da Resposta
+
+Resumo Geral:
+* Pontos fortes
+* Principais falhas
+
+Tabela de Avaliação:
+
+* Para cada item: Atende / Não atende + justificativa
+* Marcar erros repetidos e citar todas as ocorrências
+
+Pontuação:
+
+* Nota por seção
+* Nota final de 0 a 10 (respeitando pesos)
+
+Recomendações de melhoria:
+
+* 3 a 5 ações para melhorar o diagrama
+
+Agora avalie o seguinte modelo BPMN anexado, com base na seguinte atividade:
+
+*escrever atividade utilizada
